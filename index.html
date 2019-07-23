@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Camilo Acevedo</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+        <div class="container-header">
+	
+                <nav>
+                    <div class="navbar-brand">
+                        <img src="https://img.icons8.com/color/48/000000/whale.png" height="54" alt="logo"/>
+                    </div>
+                    <div class="navbar-menu">
+                        <div id="burguer-container">
+                            <span onclick="openMenu()" class="burguer-menu">
+                              <i class="fas fa-bars"></i>
+                            </span>
+                        </div>
+                        
+                        <div id="menu-options">
+                            <ul>
+                                <li>
+                                    <a id="1" onclick="goToSection(this)">Acerca de</a>
+                                </li>
+                                <li>
+                                    <a id="2" onclick="goToSection(this)">Skills</a>
+                                </li>
+                                <li>
+                                    <a id="3" onclick="goToSection(this)">Trabajos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+              </nav>
+                
+                <div data-aos="fade-up" class="text-header">
+                    <div class="text-title">
+                        <h1>Hola, Soy Camilo!</h1>
+                        <p>Web Full Stack Dev</p>
+                        <a id="1" onclick="goToSection(this)" class="btn">Conoceme</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+                <section class="about-me" id="1-section">
+                    <div data-aos="fade-up" class="profile-container">
+                        <div class="profile-photo">
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="" width="250" height="250">
+                        </div>
+                        <h3 data-aos="fade-up">Acerca de mi</h3>
+                        <p data-aos="fade-up">
+                            Mi nombre es Camilo Acevedo y soy <strong>desarrollador web full stack</strong>. Tengo experiencia a nivel de soporte tecnico y me estoy aventurando en el mundo del desarrollo web. Ya he realizado algunos proyectos en tecnologias como <strong>Java SE & MySQL</strong>, ademas de tambien he desarrollado sitios web con tecnologias como <strong>HTML5, CSS3 & JavaScript</strong> ademas de implementar otras tecnologias mas orientas al BackEnd como <strong>NodeJS</strong> del cual me considero un entusiasth.
+                        </p>
+                        <img data-aos="fade-up" src="https://img.icons8.com/color/200/000000/source-code.png">
+                    </div>
+                </section>
+            
+            <div class="separator"></div>
+            
+            <section class="skills" id="2-section">
+                <div class="skills-container">
+                    <h3 data-aos="fade-up">Skills</h3>
+                    <p data-aos="fade-up">
+                        En esta seccion, encontraras todas mis <strong>SKILLS</strong>(habilidades), en cuanto a herramientas para gestion de proyectos, herramienta de desarrollo de software y habilidades personales, que hacen de mi un gran profesional.
+                    </p>
+                    <div data-aos="fade-up" class="row skills-card">
+                        <div data-aos="fade-up" class="column col-6 column-separator">
+                            <h4>
+                                Personales
+                            </h4>
+                            <p>
+                                Estas son mis <strong>caracteristicas personales</strong>, que hacen parte de mi ser, como profesional y que complementan mi roll tecnico.
+                            </p>
+                            <ul>
+                                <li>
+                                    Pensamiento agil y facilidad para el aprendizaje de conceptos tecnicos.
+                                </li>
+                                <li>
+                                    Compromiso y alto nivel de responsabilidad, con los proyectos a los que me encuentro asignado.
+                                </li>
+                                <li>
+                                    Integridad y etica profesional.
+                                </li>
+                                <li>
+                                    Alto nivel de autonomia, entendimiento y alcance de manera exitosa de los objetivos planteados.
+                                </li>
+                            </ul>
+                        </div>
+                        <div data-aos="fade-up" class="column col-6">
+                            <h4>
+                                Tecnicas
+                            </h4>
+                            <p>
+                                Estas son mis <strong>habilidades tecnicas</strong> & <strong>herramientas</strong>, que constantemente estoy fortaleciendo y que en cada proyecto que emprendo, las aplico al maximo!
+                            </p>
+                            <ul data-aos="fade-up" class="tech-icons">
+                                <li>
+                                    <img src="https://img.icons8.com/color/96/000000/html-5.png">
+                                    <img src="https://img.icons8.com/color/96/000000/css3.png">
+                                    <img src="https://img.icons8.com/color/96/000000/javascript.png">
+                                </li>
+                                <li>
+                                    <img src="https://img.icons8.com/color/96/000000/nodejs.png">
+                                    <img src="https://img.icons8.com/color/96/000000/java-coffee-cup-logo.png">
+                                    <img src="https://img.icons8.com/ios/100/000000/mysql-logo.png">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="separator" style="margin-top: 50px"></div>
+            
+            <section class="jobs" id="3-section">
+                <div class="jobs-container">
+                    <h3 data-aos="fade-up">Mis trabajos</h3>
+                    <p data-aos="fade-up">
+                        Mira algunos de mis trabajos, los cuales se encuentran publicados al ser sitios web o en su defecto te los presento en los repositorios de mi cuenta de <strong>GitHub</strong>
+                    </p>
+                    <div>
+                        <div data-aos="fade-up" class="row">
+                            
+                            <div class="column col-4">
+                                
+                                <div class="card-job">
+                                    
+                                    <div class="card-img-job">
+                                        <img src="https://images.unsplash.com/photo-1511578194003-00c80e42dc9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                                    </div>
+                                    <div data-aos="fade-up" class="card-body">
+                                        <h4>TCBUEN</h4>
+                                        <p>
+                                            HTML5 - CSS3 - JavaScript - PHP - WordPress
+                                        </p>
+                                        <a href="https://www.tcbuen.com/" target="_blank" class="card-btn">Conocer</a>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="column col-4">
+                                
+                                <div class="card-job">
+                                    
+                                    <div class="card-img-job">
+                                        <img src="https://images.unsplash.com/photo-1484330191673-3354ce741b46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                                    </div>
+                                    <div data-aos="fade-up" class="card-body">
+                                        <h4>CORPBUNTUR</h4>
+                                        <p>
+                                            HTML5 - CSS3 - JavaScript - NodeJS - MDBootstrap
+                                        </p>
+                                        <a href="https://github.com/k4dm3l/BuenaventuraTuristica" target="_blank" class="card-btn">Conocer</a>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="column col-4">
+                                
+                                <div class="card-job">
+                                    
+                                    <div class="card-img-job">
+                                        <img src="https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                                    </div>
+                                    <div data-aos="fade-up" class="card-body">
+                                        <h4>Carnivoros</h4>
+                                        <p>
+                                            JavaSE - MySQL (Sistema Caja Registradora)
+                                        </p>
+                                        <a href="https://github.com/k4dm3l/WorkIt-Java" target="_blank" class="card-btn">Conocer</a>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+            <section class="contact-me">
+                <div class="contact-me-p">
+                    <div class="card-contact-me">
+                        
+                        <div data-aos="fade-up" class="row">
+                            <div class="column col-6">
+                                <p class="card-start-proyect mg-bt">
+                                    Iniciemos un proyecto!
+                                </p>
+                                <a class="card-contact-btn" href="c.acevedo1993@gmail.com">Contactame</a>
+                            </div>
+                            <div class="column col-6">
+                                <p class="card-start-proyect-1">
+                                    Te encuentras interead@ en trabajar conmigo? Un cafe y una buena charla puede dar inicio a un gran proyecto!
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div data-aos="fade-up" class="social-networks-container">
+                    <div class="network-icons">
+                        <ul class="list-networks">
+                            <li class="icon">
+                                <a class="twitter" href="https://twitter.com/Acevedo1993C" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="icon">
+                                <a class="github" href="https://github.com/k4dm3l" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                            <li class="icon">
+                                <a class="linkedin" href="https://www.linkedin.com/in/camilo-acevedo-0819a1179/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="credits">
+                        <p>
+                            <script type="text/javascript">
+                                copyright=new Date();
+                                update=copyright.getFullYear();
+                                document.write("Sitio Hecho a Mano - © "+update);
+                            </script>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- SCRIPTS CDN's-->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script src="https://kit.fontawesome.com/675105a60e.js"></script>
+            <script src="my_js.js"></script>
+
+</body>
+</html>
