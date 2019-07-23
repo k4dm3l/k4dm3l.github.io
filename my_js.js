@@ -9,3 +9,20 @@ function openMenu() {
 }
 
 AOS.init();
+
+/*********************************
+ *  JQUERY - GO TOP ARROW SCRIPT *
+ *********************************/
+$(window).scroll(function() {
+  if($(this).scrollTop() >= 50){
+    $('.go-top').fadeIn(200);
+  } else {
+    $('.go-top').fadeOut(200);
+  }
+});
+$('.go-top').click(function() {
+  $('body,html').animate({
+    scrollTop : 0
+  }, 500);
+});
+
