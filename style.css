@@ -45,7 +45,8 @@ nav li {
 nav li:hover {
   	background: #2B398E;
 	border-radius: 5px 5px 5px 5px;
-	transition: ease-in 0.4s;
+    transition: ease-in 0.4s;
+    cursor: pointer;
 }
 
 .navbar-brand img {
@@ -135,7 +136,8 @@ nav li:hover {
 
 .btn:hover {
 	background: #3e51c3;
-	transition: ease-in 0.4s;
+    transition: ease-in 0.4s;
+    cursor: pointer;
 }
 
 /*ABOUT ME SECTION*/
