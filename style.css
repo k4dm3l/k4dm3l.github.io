@@ -406,6 +406,11 @@ nav li:hover {
 	transition: ease 0.3s;
 }
 
+.hackerrank:hover {
+	color: #25B758;
+	transition: ease 0.3s;
+}
+
 /*CREDITS*/
 .credits {
 	margin: 10px;
