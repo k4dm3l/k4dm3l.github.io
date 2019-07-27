@@ -485,6 +485,32 @@ nav li:hover {
 /* PHONE */
 @media (min-width: 576px) {
 	
+	.container-header {
+		padding: 2rem 2rem;
+	}
+
+	.burguer-menu {
+		font-size: 2em;
+	}
+
+	.text-title h1 {
+		font-size: 3em;
+		text-align: center;
+	}
+
+	.text-title p {
+		font-size: 2em;
+	}
+
+	.profile-container {
+		margin-top: 40px;
+	}
+
+	.profile-photo img {
+		width: 200px;
+		height: 200px;
+	}
+
 	#menu-options ul {
 		font-size: 2em;
 	}
@@ -520,6 +546,10 @@ nav li:hover {
 		font-size: 4em !important;
 	}
 	
+	.profile-photo h3 {
+		font-size: 2.8em;
+	}
+
 	.profile-container h3 {
 		font-size: 4em;
 	}
