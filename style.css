@@ -482,7 +482,64 @@ nav li:hover {
 
 /*MEDIA QUERIES*/
 
-/* PHONE */
+/* PHONE Galaxy S9 */
+@media (min-width: 360px) {
+	.container-header {
+		padding: 2rem 2rem;
+	}
+
+	.burguer-menu {
+		font-size: 2em;
+	}
+
+	.text-title h1 {
+		font-size: 3em;
+		text-align: center;
+	}
+
+	.text-title p {
+		font-size: 2em;
+	}
+
+	.profile-container {
+		margin-top: 40px;
+	}
+
+	.profile-photo img {
+		width: 200px;
+		height: 200px;
+	}
+
+	.profile-photo h3 {
+		font-size: 2.8em;
+	}
+
+	.skills-container p {
+		font-size: 1.7em;
+	}
+
+	.tech-icons {
+		margin-left: -50px;
+	}
+
+	.row h4 {
+		font-size: 2.2em;
+	}
+
+	.jobs-container p {
+		font-size: 1.7em;
+	}
+
+	.contact-me-p {
+		width: 100%;
+	}
+
+	.network-icons li {
+		padding: 10px;
+	}
+}
+
+/* PHONE iPhone 6/7/8 */
 @media (min-width: 375px) {
 	.container-header {
 		padding: 2rem 2rem;
@@ -539,7 +596,7 @@ nav li:hover {
 	}
 	
 }
-
+/* PHONE Promedio*/
 @media (min-width: 576px) {
 	
 	.container-header {
@@ -691,8 +748,8 @@ nav li:hover {
 	}
 
 	.profile-photo img {
-		width: 200px;
-		height: 200px;
+		width: 300px;
+		height: 300px;
 	}
 
 	.profile-photo h3 {
