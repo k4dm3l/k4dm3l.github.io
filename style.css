@@ -727,7 +727,7 @@ nav li:hover {
 @media (min-width: 768px) {
 
 	.container-header {
-		padding: 2rem 2rem;
+		padding: 2rem 6rem;
 	}
 
 	.burguer-menu {
